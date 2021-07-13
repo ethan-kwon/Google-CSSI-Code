@@ -1,11 +1,36 @@
 .has-background-info-dark {
-    background-color: #004E7C;
+    background-color: #DCE1E3 !important;
 }
 
 .title {
-    color: #DCE1E3;
+    color: #5C5F58;
 }
 
 .subtitle {
     color: #5C5F58;
+}
+
+.card-text {
+    color: #5C5F58;
+}
+
+
+.tabs a {
+    color: #004E7C;
+}
+
+.tabs li.is-active a {
+    color: #004E7C;
+}
+
+.tabs.is-boxed li.is-active a {
+    background-color: #DCE1E3;
+}
+
+body {
+    background-color: #DCE1E3;
+}
+
+html {
+    background-color: #DCE1E3;
 }
