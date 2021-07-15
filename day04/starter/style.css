@@ -1,3 +1,39 @@
 .hidden {
   display: none;
 }
+
+#English {
+  background-color: red;
+}
+
+#Spanish {
+  background-color: orange;
+}
+
+#Chinese {
+  background-color: yellow;
+}
+
+#Tagalog {
+  background-color: green;
+}
+
+#Vietnamese {
+  background-color: blue;
+}
+
+#Arabic {
+  background-color: indigo;
+}
+
+#French {
+  background-color: violet;
+}
+
+#Korean {
+  background-color: teal;
+}
+
+#Russian {
+  background-color: pink;
+}
