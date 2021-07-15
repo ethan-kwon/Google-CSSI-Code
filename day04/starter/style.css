@@ -1,5 +1,10 @@
 .hidden {
-  display: none;
+  opacity: 0;
+}
+
+.answered {
+  opacity: 1;
+  transition: 1s;
 }
 
 #English {
@@ -36,4 +41,16 @@
 
 #Russian {
   background-color: pink;
+}
+
+#German {
+  background-color: saddlebrown;
+}
+
+#Italian {
+  background-color: seagreen;
+}
+
+#Portuguese {
+  background-color: slateblue;
 }
