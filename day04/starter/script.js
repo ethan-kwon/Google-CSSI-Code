@@ -11,6 +11,7 @@ const russianTile = document.querySelector("#Russian");
 const germanTile = document.querySelector("#German");
 const italianTile = document.querySelector("#Italian");
 const portugueseTile = document.querySelector("#Portuguese");
+const reset = document.querySelector("#Reset");
 
 // Add the id of the input field so we can access it!
 const inputField = document.querySelector("#guess");
@@ -39,3 +40,10 @@ inputField.addEventListener("change", () => {
   }
   inputField.value = "";
 });
+
+reset.addEventListener("click", () => {
+  for (let i = 0; i < tiles.length; i++) {
+    tiles[i].classList.remove("answered");
+    tiles[i].classList.add("hidden");
+  }
+})
